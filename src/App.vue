@@ -2,13 +2,13 @@
 
   
     <v-app>
-      <Navigation />
+      <Navigation to="'/'" />
      
     <v-main>
       <Hero />
 
       
-        <About />
+        <About to="/about" />
       
       <Projects />
       <Skills />

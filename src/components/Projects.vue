@@ -14,8 +14,7 @@
                     </v-img>
                     <v-card-text>
                         <div>
-                            Small plates, salads & sandwiches - an intimate setting with 12
-                            indoor seats plus patio seating.
+                            {{project.des}}
                         </div>
                     </v-card-text>
 

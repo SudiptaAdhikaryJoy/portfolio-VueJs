@@ -7,7 +7,7 @@
                     <h4 class="d-flex align-center description pr-3"> I'm
                         <typewriter ref="typewriter" class="typewriter" :replace="replace" :type-interval="100"
                             :replace-interval="500">
-                            <Span>Sudipta Adhikary Joy</Span>
+                            <Span class="px-3">Sudipta Adhikary Joy</Span>
                         </typewriter>
                     </h4>
                     <p>I'm a Full time Software Engineer</p>

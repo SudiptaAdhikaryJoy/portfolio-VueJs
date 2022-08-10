@@ -1,7 +1,7 @@
 <template>
     <v-app-bar style="padding: 0px 90px" app color="black" dark elevation="6" elevate-on-scroll>
         <v-toolbar-title>
-            hello
+            Portfolio Website
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-list class="d-flex align-center">
