@@ -24,7 +24,7 @@ export default {
                 { title: "Home", route: "home" },
                 { title: "About Me", route: "about-me" },
                 { title: "Projects", route: "project" },
-                { title: "Home", route: "home" },
+                { title: "Skills", route: "skills" },
             ]
         }
     },

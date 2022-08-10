@@ -43,7 +43,7 @@ export default {
     h2.intro-text{
         font-size: 60px;
         font-weight: 700;
-        font-family: "Helvetica Neue", "Helvetica";
+        font-family: 'cursive';
         color: #444;
     }
     h4.description{
