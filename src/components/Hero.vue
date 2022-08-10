@@ -15,7 +15,7 @@
                 <v-btn color="success" class="white--text">Hire Me</v-btn>
             </v-col>
             <v-col lg="6">
-                <img src="" alt="">
+                <img src="../assets/images/IMG09.jpg" height="100%" width="100%" alt="" class="rounded-lg">
             </v-col>
         </v-row>
     </v-container>

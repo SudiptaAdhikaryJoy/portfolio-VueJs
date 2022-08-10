@@ -8,10 +8,10 @@
 
             <v-col lg="4" v-for="project in 3" :key="project">
                 <v-card class="mx-auto my-12" max-width="374">
-                    <v-img height="250" src="https://cdn.vuetifyjs.com/images/cards/cooking.png"></v-img>
+                    <v-img height="100%" width="100%" src="../assets/images/Screenshot 2022-08-10 at 23.39.51.png">
 
-                    <v-card-title>Web</v-card-title>
-
+                        <v-card-title>{{project.title}}</v-card-title>
+                    </v-img>
                     <v-card-text>
                         <div>
                             Small plates, salads & sandwiches - an intimate setting with 12
@@ -33,6 +33,14 @@
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Projects",
+  data(){
+    return{
+        webApps:[
+            { title:'Ajker Barta', image:'../assets/images/Screenshot 2022-08-10 at 23.39.51.png', des:'It is an online news paper website. People read news from online.'},
+            { title: 'Mercury Car', image: '../assets/images/Screenshot 2022-08-10 at 23.40.36.png', des: 'It is an online car services. People book car service slots from online.' },
+        ]
+    }
+  }
 };
 </script>
 

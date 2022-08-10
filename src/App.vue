@@ -1,15 +1,22 @@
 <template>
-  <v-app>
-    
-    <Navigation/>
+
+  
+    <v-app>
+      <Navigation />
+     
     <v-main>
-      <Hero/> 
-      <About/>
-      <Projects/>
-      <Skills/>
-      <Contact/>
+      <Hero />
+
+      
+        <About />
+      
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </v-main>
   </v-app>
+    
 </template>
 
 <script>
@@ -20,9 +27,10 @@ import About from './components/About.vue';
 import Projects from './components/Projects.vue';
 import Skills from './components/Skills.vue';
 import Contact from './components/Contact.vue';
+import Footer from './components/Footer.vue';
 export default {
   name: 'App',
-  components:{ Navigation, Hero, About, Projects, Skills, Contact }
+  components:{ Navigation, Hero, About, Projects, Skills, Contact, Footer }
   
 
   
